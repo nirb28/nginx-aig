@@ -1,0 +1,1 @@
+docker run -it --rm -d -p 8080:80 --name web -v /d/ds/work/workspace/git/nginx-aig/container/site-content:/usr/share/nginx/html -v /d/ds/work/workspace/git/nginx-aig/container/etc_nginx:/etc/nginx -v /d/ds/work/workspace/git/nginx-aig/container/log_nginx:/var/log/nginx nginx
